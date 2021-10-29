@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2? family = Poppins: wght @ 300 & display = swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 2rem;
+}
+
+:root {
+  --body-bg:  hsl(225, 100%, 94%);
+  --color:  #fff ;
+  --white:#000;
+}
+
+.on:root {
+  --body-bg:  hsl(240, 3%, 14%);
+  --color:#000  ;
+  --white:#fff;
+  -webkit-transition: -webkit-transform 5s ease-in;
+  transition: -webkit-transform 5s ease-in;
+  transition: transform 5s ease-in;
+  transition: transform 5s ease-in, -webkit-transform 5s ease-in;
+}
+
+.darkmode {
+  position: absolute;
+  z-index: 100;
+  width: 50px;
+  top: 100px;
+  right: 100px;
+}
+
+.container {
+  color: var(--white);
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background: var(--body-bg);
+}
+
+.container img {
+  width: 100vw;
+}
+
+.container p {
+  font-size: 16px;
+}
+
+.containerbox {
+  width: 400px;
+  position: absolute;
+  z-index: 100;
+  top: 100px;
+  background-color: var(--color);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 610px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 1rem;
+}
+
+.containerbox img {
+  width: 100%;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.planediv {
+  width: 100%;
+  padding: .1rem;
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.planediv img {
+  width: 50px;
+  position: relative;
+  top: 5;
+}
+
+.planediv .divpla {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.planediv .span {
+  margin: 1rem;
+}
+
+.planediv .span span {
+  margin-bottom: .3rem;
+}
+
+.a1 {
+  margin-bottom: .9rem;
+  margin-top: 2rem;
+  background-color: #3829e0;
+  padding: 1rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  border-radius: .5rem;
+  color: #fff;
+}
+
+.a1:hover {
+  background-color: #1f2f56;
+  color: #fff;
+}
+
+.a2 {
+  font-weight: bolder;
+  color: gray;
+  padding-bottom: 1rem;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+}
+/*# sourceMappingURL=style.css.map */
